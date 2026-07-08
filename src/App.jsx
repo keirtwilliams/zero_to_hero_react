@@ -1,16 +1,14 @@
-import { Fragment } from "react";
-import Cat from './Cat';
-import Dog from './Dog';
-function greeting(){
 
+function WarningAlert(){
   return (
-    /* fragment is use to group elements together or you can use "<></>"*/
-    <Fragment>
-        <Dog />
-        <Cat />
-  </Fragment> 
+     <div className="alert-box"> 
+          <span>
+
+             
+          </span>
+     </div>
   )
 }
 
 {/*this is a comment on react.*/}
-export default greeting;
+export default  WarningAlert;
